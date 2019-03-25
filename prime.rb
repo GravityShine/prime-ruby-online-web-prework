@@ -1,6 +1,6 @@
-def prime (number)
+def prime (n)
   if number >= 2
-  (2...number - 1).all? do |x|
+  (2...n - 1).all? do |n|
     number % x != 0
 end
 else
