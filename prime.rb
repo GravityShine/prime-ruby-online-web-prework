@@ -1,8 +1,7 @@
-def prime?(n)
-  if number >= 2
-  (2...n - 1).all? do |n|
-    number % x !== 0
-end
-else
-return false
+def prime?(num)
+  if num <= 1
+    return false
+  else
+    (2..Math.sqrt(num)).none? { |i| (num % i).zero? }
+  end
 end
